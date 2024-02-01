@@ -3,13 +3,13 @@ import java.util.Arrays;
 public class NeoMatrix {
 
     public static void main(String[] args) {
-        // Розмір матриці (8x8)
+        
         int matrixSize = 8;
 
-        // Створюємо матрицю
+    
         int[][] trainingMatrix = createTrainingMatrix(matrixSize);
 
-        // Виводимо матрицю з квадратними скобками
+        
         for (int i = 0; i < matrixSize; i++) {
             System.out.print("[ ");
             for (int j = 0; j < matrixSize; j++) {
@@ -22,7 +22,7 @@ public class NeoMatrix {
         }
     }
 
-    // Функція для створення тренувальної бойової матриці
+    
     private static int[][] createTrainingMatrix(int size) {
         int[][] matrix = new int[size][size];
         for (int i = 0; i < size; i++) {
